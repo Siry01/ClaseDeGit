@@ -10,4 +10,4 @@
 ## MODULO __PHP Y MYSQL__
 ## MODULO **PYTHON**
 > Empieza donde estas, con lo que tienes
-[Google Fonts] (htpps://fonts.google.com/)
+[google fonts](htpps://fonts.google.com/)
