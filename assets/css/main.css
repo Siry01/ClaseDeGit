@@ -86,7 +86,7 @@ a{
     text-align: center;
 }
 
-.col{
+.servicios .col{
     padding: 5%;
     border: 1px solid rgb(228, 203,203);
     border-radius: 5px;
@@ -98,4 +98,13 @@ a{
     font-size: 50px;
 
 }
+ /*footer*/
+footer{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
 
+footer .logo{
+    width: 150px;
+
+}
