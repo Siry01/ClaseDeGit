@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
 body{
     padding: 0px;
     margin: 0px;
+    font-family: "Permanent Marker", cursive;
 }
 
 :root{
@@ -21,8 +24,8 @@ a{
     text-decoration: none;
 }
 .menu{
-    background-color: var(--third-color);/*color del fondo*/
-    color: var(--main-color); /*color de la letra*/
+    background-color: var(--main-color);/*color del fondo*/
+    color: var(--black); /*color de la letra*/
     font-size: 14px;/*tamaño de la letra*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;/*tipo de letra*/
     height: 70px;
@@ -42,7 +45,7 @@ a{
 
 }
 .menu ul li a{
-    color: var(--main-color);
+    color: var(--black);
     display: block;
 }
 
@@ -61,6 +64,7 @@ a{
     font-size: 48px;
     font-weight: 800;
     color:var(--main-color);
+    font-family: "Bungee Spice", sans-serif;
 }
 
 .image-quienes-somos{
@@ -75,14 +79,20 @@ a{
 .contenedor{
     max-width: 100%;
     padding: 80px 30px;
+    color: var(--main-color);
 }
 
+.contenedor p{
+    color: var(--black);
+}
 .center{
-    text-align: center
+    text-align: center;
+   
 }
 .contenedor h2{
     font-size: 48px;
     font-weight: bold;
+    font-family: "Bungee Spice", sans-serif;
 }
 .contenedor p{
     font-size: 16px;
@@ -95,6 +105,7 @@ a{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     text-align: center;
+    color:var(--black);
 }
 
 .servicios .col{
@@ -105,9 +116,13 @@ a{
     
 }
 
-.icon{
+.icon {
     font-size: 50px;
+    color: var(--main-color);
 
+}
+.icon :hover{
+    color: var(--second-color);
 }
  /*footer*/
 footer{
@@ -124,7 +139,11 @@ footer h3{
     color: var(--main-color);
     font-size: 32px;
     font-weight: 900;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Bungee Spice", sans-serif;
+}
+
+.lh-1-5{
+    line-height: 1.5em;
 }
 
 footer .social-icons{
@@ -141,4 +160,12 @@ footer .social-icons li a {
 }
 footer .social-icons li a:hover{
     color: var(--second-color) ;
+}
+
+.copyright{
+    background-color: var(--gray-dark);
+    color: var(--white);
+    font-size: 12px;
+    height: 60px;
+    padding-top: 15px;
 }
