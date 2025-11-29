@@ -9,7 +9,7 @@
 ## MODULO *JAVASCRIPT*
 ## MODULO __PHP Y MYSQL__
 ## MODULO **PYTHON**
-> Empieza donde estas, con lo que tienes
+> Empieza donde estas, y usa lo que tienes, con lo que puedes
 [google fonts] (https://fonts.google.com/)
 
 ![Zoro.](assets/images/zoro.jpg) 
