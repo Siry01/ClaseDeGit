@@ -2,6 +2,17 @@ body{
     padding: 0px;
     margin: 0px;
 }
+
+:root{
+    --main-color: #FF6C0C;
+    --second-color:#BF1A1A;
+    --third-color:#FFE08F;
+    --fourth-color: #060771;
+    --white: #ffffff;
+    --black:#000000;
+    --gray-dark:#222831;
+    --gray: #393E46;
+}
 ul{
     list-style: none;
 }
@@ -10,8 +21,8 @@ a{
     text-decoration: none;
 }
 .menu{
-    background-color: black;/*color del fondo*/
-    color: white; /*color de la letra*/
+    background-color: var(--third-color);/*color del fondo*/
+    color: var(--main-color); /*color de la letra*/
     font-size: 14px;/*tamaño de la letra*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;/*tipo de letra*/
     height: 70px;
@@ -31,12 +42,12 @@ a{
 
 }
 .menu ul li a{
-    color: #EE6983;
+    color: var(--main-color);
     display: block;
 }
 
 .menu ul li a:hover{
-    color: rgb(255, 255, 255);
+    color: var(--second-color);
 }
 
 /*quienes somos*/
@@ -49,7 +60,7 @@ a{
 .quienes-somos h2{
     font-size: 48px;
     font-weight: 800;
-    color: #EE6983;
+    color:var(--main-color);
 }
 
 .image-quienes-somos{
@@ -88,7 +99,7 @@ a{
 
 .servicios .col{
     padding: 5%;
-    border: 1px solid rgb(228, 203,203);
+    border: 1px solid var(--black);
     border-radius: 5px;
     margin-top: 30px;
     
@@ -106,4 +117,28 @@ footer{
 
 footer .logo{
     width: 150px;
+    padding-left: 40px;
+}
+
+footer h3{
+    color: var(--main-color);
+    font-size: 32px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer .social-icons{
+    display: flex;
+
+}
+
+footer .social-icons li{
+    padding: 5px;
+}
+footer .social-icons li a {
+    font-size: 32px;
+    color: var(--black);
+}
+footer .social-icons li a:hover{
+    color: var(--second-color) ;
 }
